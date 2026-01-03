@@ -28,7 +28,7 @@ The workflow is automated using the following batch scripts and python files:
 * **Reference**: [CHGNet GitHub](https://github.com/CederGroupHub/chgnet)
 
 ### 3. Property Prediction
-* **Scripts**: `alignn_play.py`, `alignn_process_one_batch_batches.py`, `run_all.bat`
+* **Scripts**: `alignn_play.py`, `alignn_process_one_batch_batches.py`, `run_ALIGNN.bat`
 * **Description**: Predicts electronic band gaps and dielectric constants for the screened candidates.
 * **Reference**: [ALIGNN GitHub](https://github.com/usnistgov/alignn)
 
