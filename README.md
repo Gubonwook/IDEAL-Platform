@@ -1,7 +1,8 @@
 # IDEAL Platform: Inverse Design for Experimental Atomic Layers
 
-!!!!!!!!!!!!!!!!!!!!!!# Please change this path to your local directory !!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!! Please change this path to your local directory !!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+Large data files are available upon request
 
 This repository contains the source code for the **IDEAL (Inverse Design for Experimental Atomic Layers)** platform, as presented in our manuscript:  
 > **"AI-driven Inverse Design of Complex Oxide Thin Films for Semiconductor Devices"**
