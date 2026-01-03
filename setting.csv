@@ -1,0 +1,9 @@
+Model,input,input2,batch_size,num_batches,1,mattergen_base,: unconditional base model trained on Alex-MP-20
+9,Hf-Zr-O,0.1,100,30,2,mp_20_base,: unconditional base model trained on MP-20
+,,,,,3,chemical_system,: fine-tuned model conditioned on chemical system
+,,,,,4,space_group,: fine-tuned model conditioned on space group
+,,,,,5,dft_mag_density,: fine-tuned model conditioned on magnetic density from DFT
+,,,,,6,dft_band_gap,: fine-tuned model conditioned on band gap from DFT
+,,,,,7,ml_bulk_modulus,: fine-tuned model conditioned on bulk modulus from ML predictor
+,,,,,8,dft_mag_density_hhi_score,: fine-tuned model jointly conditioned on magnetic density from DFT and HHI score
+,,,,,9,chemical_system_energy_above_hull,: fine-tuned model jointly conditioned on chemical system and energy above hull from
