@@ -1,0 +1,31 @@
+# IDEAL Platform Unified Requirements
+# 추천: Python 3.10 이상
+
+# Core ML Frameworks (CUDA 11.8 기준 예시)
+# torch --index-url https://download.pytorch.org/whl/cu118
+# dgl --index-url https://download.pytorch.org/whl/cu118
+
+torch
+torchvision
+torchaudio
+dgl
+
+# Materials Science Packages
+ase
+pymatgen
+matgl
+chgnet
+alignn
+jarvis-tools
+
+# Note: MatterGen은 GitHub에서 직접 설치해야 할 수 있습니다.
+# pip install git+https://github.com/microsoft/mattergen.git
+# 또는 로컬 MatterGen 폴더에서: pip install -e .
+
+# Utilities
+numpy<2.0
+pandas
+tqdm
+scikit-learn
+openpyxl
+requests

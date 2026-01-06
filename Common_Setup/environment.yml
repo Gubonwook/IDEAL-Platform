@@ -1,0 +1,28 @@
+name: ideal_platform
+channels:
+  - pytorch
+  - nvidia
+  - dglteam
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=11.8
+  - dgl-cuda11.8 # Or dgl depending on CUDA version
+  - cudatoolkit
+  - numpy<2.0
+  - pandas
+  - tqdm
+  - scikit-learn
+  - pip:
+      - ase
+      - pymatgen
+      - matgl
+      - chgnet
+      - alignn
+      - jarvis-tools
+      - mattergen # Note: Might need to be installed from source if not in PyPI
