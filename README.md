@@ -72,3 +72,5 @@ pip install -r Common_Setup/requirements.txt
 ## 🛠 Notes
 - Large data files and model weights are not included in this repository. Please request them from the authors if needed.
 - This platform is optimized for Hf-Zr-O thin film systems but can be adapted for other chemical systems.
+
+      -   **- Recent version on https://github.com/hbrl-research-group/IDEAL-Platform**
